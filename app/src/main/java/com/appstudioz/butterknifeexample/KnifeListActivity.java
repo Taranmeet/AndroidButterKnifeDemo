@@ -10,10 +10,11 @@ import butterknife.ButterKnife;
 
 /**
  * Created by taranmeet on 27/10/15.
- *
+ * This class represents an activity used to show the use of butter knife with a list view and adapter.
  */
 public class KnifeListActivity extends AppCompatActivity {
 
+    // List view bounded by butter knife.
     @Bind(R.id.lv_knives)
     ListView mKnivesListView;
 

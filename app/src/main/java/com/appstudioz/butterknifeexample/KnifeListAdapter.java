@@ -12,16 +12,20 @@ import butterknife.ButterKnife;
 
 /**
  * Created by taranmeet on 27/10/15.
+ * Class represents an adapter which is an extension of BaseAdapter class use to show butter knife
+ * integration.
  */
 public class KnifeListAdapter extends BaseAdapter {
 
-    private Context mContext;
-
     private LayoutInflater mInflater;
 
+    /**
+     * Public constructor for adapter.
+     *
+     * @param context context of calling activity.
+     */
     public KnifeListAdapter(Context context) {
-        mContext = context;
-        mInflater = LayoutInflater.from(mContext);
+        mInflater = LayoutInflater.from(context);
     }
 
     @Override
@@ -53,10 +57,20 @@ public class KnifeListAdapter extends BaseAdapter {
         return convertView;
     }
 
+    /**
+     * Class representing the holder for views in an item of list views.
+     */
     class ViewHolder {
+        // Annotation showing how a list of similar views can be created using butter knife.
         @Bind({R.id.tv_list, R.id.tv_list2})
         TextView mListTextView[];
 
+        /**
+         * Public parametrized constructor which should be provided for butter knife to bind the
+         * views.
+         *
+         * @param view Instance of convert view as provided in getView() method.
+         */
         public ViewHolder(View view) {
             ButterKnife.bind(this, view);
         }

@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">Butter Knife Example</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Hello world! This is a Text View which is bound by Butte Knife.</string>
     <string name="action_settings">Settings</string>
-    <string name="text_btn">Next</string>
-    <string name="text_fragment">Fragment</string>
+
+    <string name="text_btn">Go To List</string>
+    <string name="text_fragment">Go To Fragment</string>
     <string name="text_fragment_knife">This is fragment</string>
+    <string name="text_new">Text Changed</string>
 </resources>
