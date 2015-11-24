@@ -1,4 +1,4 @@
-package com.appstudioz.butterknifeexample;
+package com.taranmeet.butterknifeexample;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

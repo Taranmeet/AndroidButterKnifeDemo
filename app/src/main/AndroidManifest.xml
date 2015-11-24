@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.appstudioz.butterknifeexample">
+    package="com.taranmeet.butterknifeexample">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".KnifeActivity"
+            android:name="com.taranmeet.butterknifeexample.KnifeActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,10 +17,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".KnifeListActivity"
+            android:name="com.taranmeet.butterknifeexample.KnifeListActivity"
             android:label="@string/app_name">
             <intent-filter>
-                <action android:name="com.appstudioz.butterknife.KnifeListActivity" />
+                <action android:name="com.taranmeet.butterknife.KnifeListActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

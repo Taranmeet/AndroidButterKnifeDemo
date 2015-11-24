@@ -1,4 +1,4 @@
-package com.appstudioz.butterknifeexample;
+package com.taranmeet.butterknifeexample;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,7 +20,6 @@ import butterknife.OnLongClick;
  * events using butter knife base annotations. It also has a fragment to showcase the use of butter
  * knife there. It also invokes another activity on a button click that shows use of butter knife
  * with a List View and adapter.
- *
  */
 public class KnifeActivity extends AppCompatActivity {
 
@@ -62,7 +61,7 @@ public class KnifeActivity extends AppCompatActivity {
      */
     @OnClick(R.id.btn_next)
     public void clickList(View view) {
-        Intent intent = new Intent("com.appstudioz.butterknife.KnifeListActivity");
+        Intent intent = new Intent("com.taranmeet.butterknife.KnifeListActivity");
         startActivity(intent);
     }
 

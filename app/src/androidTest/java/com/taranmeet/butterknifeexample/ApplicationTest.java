@@ -1,4 +1,4 @@
-package com.appstudioz.butterknifeexample;
+package com.taranmeet.butterknifeexample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
